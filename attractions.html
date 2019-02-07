@@ -36,27 +36,27 @@
   function initMap() {
     // The location of Glasgow
     var glasgow = { lat: 55.8642, lng: -4.2518 };
-    var radisson_blu = { lat: 55.8584792, lng: -4.2625116 };
-    var premier_inn = { lat: 55.8584789, lng: -4.2690777 };
-    var the_z_hotel = { lat: 55.8617537, lng: -4.2507607 };
+    var botanic = { lat: 55.8797045, lng: -4.2911777 };
+    var modern = { lat: 55.8601314, lng: -4.2543698 };
+    var kelvingrove = { lat: 55.8685891, lng: -4.2927926 };
     // The map, centered at Glasgow
     var map = new google.maps.Map(
-      document.getElementById('map'), { zoom: 14, center: glasgow });
+      document.getElementById('map'), { zoom: 13, center: glasgow });
     // The marker, positioned at Glasgow
     var marker = new google.maps.Marker({
-      position: radisson_blu, map: map, title: 'Radisson Blu',
+      position: botanic, map: map, title: 'Glasgow Botanic Gardens',
       icon: {
         url: "img/icons/theater.png"
       }
     });
     var marker = new google.maps.Marker({
-      position: premier_inn, map: map, title: 'Premier Inn',
+      position: modern, map: map, title: 'Gallery of Modern Art',
       icon: {
         url: "img/icons/theater.png"
       }
     });
     var marker = new google.maps.Marker({
-      position: the_z_hotel, map: map, title: 'The Z Hotel',
+      position: kelvingrove, map: map, title: 'Kelvingrove Art Gallery and Museum',
       icon: {
         url: "img/icons/theater.png"
       }
@@ -108,7 +108,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/glasgowhome.jpg')">
+  <header class="masthead" style="background-image: url('img/attractionshome.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -130,35 +130,47 @@
         <div style="border-width: thin; border-style: solid; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
           <div class="card-deck">
             <div class="card">
-              <img class="card-img-top" src="img/hotel1.jpg" alt="Card image cap">
+              <img class="card-img-top" src="img/attraction1.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Hotel #1</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <h5 class="card-title">Glasgow Botanic Gardens</h5>
+                <p class="card-text">Glasgow Botanic Gardens, located in the West End of Glasgow and managed by Glasgow
+                  City Council is arguably the finest Garden in Glasgow, and is dominated by the recently restored
+                  Kibble Palace.</p>
+                <p>The Kibble Palace. a magnificent Curvilinular Glasshouse designed by John Kibble (full details
+                  elsewhere in this site) houses the National collection of tree ferns.</p>
               </div>
               <div class="card-footer">
-                <a href="http://google.com" type="button" class="btn btn-success">Book this hotel</a>
+                <a href="http://www.glasgowbotanicgardens.com/" target="_blank" type="button" class="btn btn-success">Visit
+                  Website</a>
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="img/hotel2.jpg" alt="Card image cap">
+              <img class="card-img-top" src="img/attraction2.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Hotel #2</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="card-title">Gallery of Modern Art</h5>
+                <p class="card-text">GoMA is located in the centre of Glasgow. It contains four galleries, a café, a
+                  shop and a library.</p>
+                <p> We are a world class art museum and a place for people to gather, to learn and to share ideas. We
+                  display, borrow and collect artworks from around the world.</p>
               </div>
               <div class="card-footer">
-                <a href="http://google.com" type="button" class="btn btn-success">Book this hotel</a>
+                <a href="https://www.glasgowlife.org.uk/museums/venues/gallery-of-modern-art-goma" type="button" target="_blank"
+                  class="btn btn-success">Visit Website</a>
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="img/hotel3.jpg" alt="Card image cap">
+              <img class="card-img-top" src="img/attraction3.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Hotel #3</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This card has even longer content than the first to show that equal height action.</p>
+                <h5 class="card-title">Kelvingrove Art Gallery and Museum</h5>
+                <p class="card-text">Kelvingrove Museum opened in 1901 and is a firm favourite with local people and
+                  visitors. It has stunning architecture and a family friendly atmosphere.</p>
+                <p>Explore our 22 galleries and discover everything from art to animals, Ancient Egypt to Charles
+                  Rennie Mackintosh and so much more. We also have a changing programme of temporary exhibitions and
+                  displays.</p>
               </div>
               <div class="card-footer">
-                <a href="http://google.com" type="button" class="btn btn-success">Book this hotel</a>
+                <a href="https://www.glasgowlife.org.uk/museums/venues/kelvingrove-art-gallery-and-museum" target="_blank"
+                  type="button" class="btn btn-success">Visit Website</a>
               </div>
             </div>
           </div>
@@ -171,13 +183,6 @@
           <div id="map"></div>
         </div>
         <!-- End Cards -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates
-          odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto
-          error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas
-          voluptatibus, minus!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex
-          itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
       </div>
     </div>
   </div>
