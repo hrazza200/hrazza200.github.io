@@ -1,0 +1,55 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Hotel",
+          "icon": "/static/images/icons/map-marker-do.png",
+          "coordinates": [
+            -4.2625116,
+            55.8584792
+          ]
+        },
+        "properties": {
+          "name": "Radison_blu",
+          "description": "One of Europeâ€™s finest Gothic buildings, once the tallest building in the world that dominates Lincoln's skyline.",
+          "icon": "img/icons/hotel.png"
+        }
+      },
+      {
+          "type": "Feature",
+          "geometry": {
+            "type": "Attraction",
+            "icon": "img/icons/food.png",
+            "coordinates": [
+              -4.2507607,
+              55.8601314
+            ]
+          },
+          "properties": {
+            "name": "GOMA",
+            "description": "Gallery of Modern Art",
+            "icon": "img/icons/theater.png",
+            "link": "https://www.glasgowlife.org.uk/museums/venues/gallery-of-modern-art-goma"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Attraction",
+            "icon": "img/icons/food.png",
+            "coordinates": [
+              -4.2927926,
+              55.8685891
+            ]
+          },
+          "properties": {
+            "name": "Kelvingrove",
+            "description": "Kelvingrove Art Gallery",
+            "icon": "img/icons/theater.png"
+          }
+        }
+    ]
+  };
+  
