@@ -7,12 +7,12 @@ var geoJSON = {
         "type": "Hotel",
         "icon": "/static/images/icons/map-marker-do.png",
         "coordinates": [
-          -4.2625116,
-          55.8584792
+          -4.2472867,
+          55.857262,
         ]
       },
       "properties": {
-        "name": "Radison_blu",
+        "name": "Fraser Suites Glasgow",
         "description": "One of Europeâ€™s finest Gothic buildings, once the tallest building in the world that dominates Lincoln's skyline.",
         "icon": "img/icons/hotel.png"
       }
@@ -25,7 +25,7 @@ var geoJSON = {
         "icon": "/static/images/icons/map-marker-do.png",
         "coordinates": [
           -4.2620562,
-          55.8640812
+          55.8640812,
         ]
       },
       "properties": {
@@ -41,8 +41,8 @@ var geoJSON = {
         "type": "Hotel",
         "icon": "/static/images/icons/map-marker-do.png",
         "coordinates": [
-          -4.2891616,
-          55.8782545
+          -4.2886359,
+          55.8771321,
         ]
       },
       "properties": {
