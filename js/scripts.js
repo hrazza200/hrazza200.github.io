@@ -66,7 +66,7 @@ function findMarkersNearMe(lat1,lng1) {
       lat2 = geoJSON["features"][i].geometry.coordinates[1];
       lng2 = geoJSON["features"][i].geometry.coordinates[0];
 
-      if (findUclidianDistance(lat1, lng1, lat2, lng2) < 0.01) {
+      if (findUclidianDistance(lat1, lng1, lat2, lng2) < 0.02) {
         latLong = getLatLong(lat2,lng2);
         markers[i] = new google.maps.Marker({
           position: latLong, map: map, title: geoJSON["features"][i].properties.name,
