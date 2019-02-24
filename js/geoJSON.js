@@ -51,14 +51,11 @@ var geoJSON = {
     }
   },
 
-
-
-
   {
     "type": "Feature",
     "geometry": {
       "type": "Attraction",
-      "icon": "img/icons/food.png",
+      "icon": "img/icons/theatre.png",
       "coordinates": [
         -4.2507607,
         55.8601314
@@ -67,7 +64,7 @@ var geoJSON = {
     "properties": {
       "name": "GOMA",
       "description": "Gallery of Modern Art",
-      "icon": "img/icons/theater.png",
+      "icon": "img/icons/theatre.png",
       "link": "https://www.glasgowlife.org.uk/museums/venues/gallery-of-modern-art-goma"
     }
   },
@@ -79,7 +76,7 @@ var geoJSON = {
     "type": "Feature",
     "geometry": {
       "type": "Attraction",
-      "icon": "img/icons/food.png",
+      "icon": "img/icons/theatre.png",
       "coordinates": [
         -4.2927926,
         55.8685891
@@ -88,7 +85,8 @@ var geoJSON = {
     "properties": {
       "name": "Kelvingrove",
       "description": "Kelvingrove Art Gallery",
-      "icon": "img/icons/theater.png"
+      "icon": "img/icons/theatre.png",
+      "link": "https://www.glasgowlife.org.uk/museums/venues/kelvingrove-art-gallery-and-museum"
     }
   },
 
@@ -96,7 +94,7 @@ var geoJSON = {
     "type": "Feature",
     "geometry": {
       "type": "Attraction",
-      "icon": "img/icons/food.png",
+      "icon": "img/icons/theatre.png",
       "coordinates": [
         -4.2663669,
         55.8638525
@@ -105,7 +103,8 @@ var geoJSON = {
     "properties": {
       "name": "Cineworld Cinema",
       "description": "Cinema",
-      "icon": "img/icons/theater.png"
+      "icon": "img/icons/theatre.png",
+      "link": "https://www.google.com/search?q=cineworld&oq=cineworld&aqs=chrome.0.35i39j69i60j69i61j35i39j0l2.2725j0j4&sourceid=chrome&ie=UTF-8"
     }
   },
 
@@ -113,7 +112,7 @@ var geoJSON = {
     "type": "Feature",
     "geometry": {
       "type": "Attraction",
-      "icon": "img/icons/food.png",
+      "icon": "img/icons/theatre.png",
       "coordinates": [
         -4.27085896,
         55.8650459
@@ -122,7 +121,8 @@ var geoJSON = {
     "properties": {
       "name": "Kings Theatre",
       "description": "Theatre",
-      "icon": "img/icons/theater.png"
+      "icon": "img/icons/theatre.png",
+      "link": "https://www.atgtickets.com/venues/kings-theatre/"
     }
   },
 
@@ -139,7 +139,8 @@ var geoJSON = {
     "properties": {
       "name": "The Flying Duck",
       "description": "Restaurant",
-      "icon": "img/icons/food.png"
+      "icon": "img/icons/food.png",
+      "link": "https://www.theflyingduck.org/"
     }
   },
 
@@ -156,7 +157,8 @@ var geoJSON = {
     "properties": {
       "name": "Berkeley Street Musallah",
       "description": "Mosque",
-      "icon": "img/icons/mosque.png"
+      "icon": "img/icons/mosque.png",
+      "link": "https://www.google.com/search?q=berkeley+street+musallah&oq=Berkeley+Street+Musallah&aqs=chrome.0.35i39j69i60l2j69i61.1215j0j7&sourceid=chrome&ie=UTF-8"
     }
   },
 
@@ -173,7 +175,8 @@ var geoJSON = {
     "properties": {
       "name": "Al-Furqan Mosque",
       "description": "Mosque",
-      "icon": "img/icons/mosque.png"
+      "icon": "img/icons/mosque.png",
+      "link": "https://www.alfurqanmosque.com/"
     }
   },
 
@@ -190,7 +193,8 @@ var geoJSON = {
     "properties": {
       "name": "Glasgow Central Mosque",
       "description": "Mosque",
-      "icon": "img/icons/mosque.png"
+      "icon": "img/icons/mosque.png",
+      "link": "http://www.centralmosque.co.uk/"
     }
   },
 
@@ -207,7 +211,8 @@ var geoJSON = {
     "properties": {
       "name": "Baitur Rahman Mosque Glasgow",
       "description": "Mosque",
-      "icon": "img/icons/mosque.png"
+      "icon": "img/icons/mosque.png",
+      "link": "https://www.alislam.org/"
     }
   },
 
@@ -224,7 +229,8 @@ var geoJSON = {
     "properties": {
       "name": "Masjid Noor",
       "description": "Mosque",
-      "icon": "img/icons/mosque.png"
+      "icon": "img/icons/mosque.png",
+      "link": "http://www.masjidnoorglasgow.co.uk/"
     }
   },
 
@@ -241,7 +247,8 @@ var geoJSON = {
     "properties": {
       "name": "Dawatul Islam Glasgow",
       "description": "Mosque",
-      "icon": "img/icons/mosque.png"
+      "icon": "img/icons/mosque.png",
+      "link": "https://www.google.com/search?q=Dawatul+Islam+Glasgow&oq=Dawatul+Islam+Glasgow&aqs=chrome..69i57j69i60j69i61j69i60j0l2.2646j0j4&sourceid=chrome&ie=UTF-8"
     }
   },
 
@@ -258,7 +265,8 @@ var geoJSON = {
     "properties": {
       "name": "Ahl-al-Bayt Mosque",
       "description": "Mosque",
-      "icon": "img/icons/mosque.png"
+      "icon": "img/icons/mosque.png",
+      "link": "http://www.ahlillbait.org/"
     }
   },
 
@@ -275,7 +283,8 @@ var geoJSON = {
     "properties": {
       "name": "Masjid-E-Khazra",
       "description": "Mosque",
-      "icon": "img/icons/mosque.png"
+      "icon": "img/icons/mosque.png",
+      "link": "http://www.masjidkhazra.org/"
     }
   },
 
@@ -292,7 +301,8 @@ var geoJSON = {
     "properties": {
       "name": "Rishis Indian Aroma",
       "description": "Restaurant",
-      "icon": "img/icons/food.png"
+      "icon": "img/icons/food.png",
+      "link": "http://www.rishisglasgow.co.uk/"
     }
   },
 
@@ -309,7 +319,8 @@ var geoJSON = {
     "properties": {
       "name": "Cook & Indi's World Buffet",
       "description": "Restaurant",
-      "icon": "img/icons/food.png"
+      "icon": "img/icons/food.png",
+      "link": "http://cookandindisworldbuffet.com/renfield-st/"
     }
   },
 
@@ -326,7 +337,8 @@ var geoJSON = {
     "properties": {
       "name": "Bread Meats Bread West End",
       "description": "Restaurant",
-      "icon": "img/icons/food.png"
+      "icon": "img/icons/food.png",
+      "link": "http://www.breadmeatsbread.com/"
     }
   },
 
@@ -343,7 +355,8 @@ var geoJSON = {
     "properties": {
       "name": "Brgr Glasgow Great Western Road",
       "description": "Restaurant",
-      "icon": "img/icons/food.png"
+      "icon": "img/icons/food.png",
+      "link": "https://www.brgr-glasgow.com/glasgow-great-western-road/"
     }
   },
 
@@ -360,7 +373,8 @@ var geoJSON = {
     "properties": {
       "name": "Cafe Andaluz West End",
       "description": "Restaurant",
-      "icon": "img/icons/food.png"
+      "icon": "img/icons/food.png",
+      "link": "https://www.cafeandaluz.com/"
     }
   },
 
@@ -377,7 +391,8 @@ var geoJSON = {
     "properties": {
       "name": "Obsession of India",
       "description": "Restaurant",
-      "icon": "img/icons/food.png"
+      "icon": "img/icons/food.png",
+      "link": "https://www.obsessionofindia.co.uk/"
     }
   },
 
@@ -394,7 +409,8 @@ var geoJSON = {
     "properties": {
       "name": "Shawarma King",
       "description": "Restaurant",
-      "icon": "img/icons/food.png"
+      "icon": "img/icons/food.png",
+      "link": "https://www.google.com/search?q=shawarma+king&oq=Shawarma+King&aqs=chrome.0.0l4j69i60l2.853j0j4&sourceid=chrome&ie=UTF-8"
     }
   },
 
@@ -411,7 +427,8 @@ var geoJSON = {
     "properties": {
       "name": "KoolBa",
       "description": "Restaurant",
-      "icon": "img/icons/food.png"
+      "icon": "img/icons/food.png",
+      "link": "http://www.koolba.com/"
     }
   },
 
@@ -419,7 +436,7 @@ var geoJSON = {
     "type": "Feature",
     "geometry": {
       "type": "Attraction",
-      "icon": "img/icons/food.png",
+      "icon": "img/icons/theatre.png",
       "coordinates": [
         -4.2579127,
         55.865085
@@ -428,7 +445,8 @@ var geoJSON = {
     "properties": {
       "name": "Pavilion Theatre",
       "description": "Theatre",
-      "icon": "img/icons/theater.png"
+      "icon": "img/icons/theatre.png",
+      "link": "https://www.paviliontheatre.co.uk/"
     }
   },
 
@@ -436,7 +454,7 @@ var geoJSON = {
     "type": "Feature",
     "geometry": {
       "type": "Attraction",
-      "icon": "img/icons/food.png",
+      "icon": "img/icons/theatre.png",
       "coordinates": [
         -4.2708596,
         55.8650459
@@ -445,7 +463,8 @@ var geoJSON = {
     "properties": {
       "name": "King's Theatre",
       "description": "Theatre",
-      "icon": "img/icons/theater.png"
+      "icon": "img/icons/theatre.png",
+      "link": "https://www.atgtickets.com/venues/kings-theatre/"
     }
   },
 
@@ -453,7 +472,7 @@ var geoJSON = {
     "type": "Feature",
     "geometry": {
       "type": "Attraction",
-      "icon": "img/icons/food.png",
+      "icon": "img/icons/theatre.png",
       "coordinates": [
         -4.2933664,
         55.8797075
@@ -462,7 +481,8 @@ var geoJSON = {
     "properties": {
       "name": "Glasgow Botanic Gardens",
       "description": "Garden",
-      "icon": "img/icons/theater.png"
+      "icon": "img/icons/theatre.png",
+      "link": "http://www.glasgowbotanicgardens.com/"
     }
   },
 
@@ -470,7 +490,7 @@ var geoJSON = {
     "type": "Feature",
     "geometry": {
       "type": "Attraction",
-      "icon": "img/icons/food.png",
+      "icon": "img/icons/theatre.png",
       "coordinates": [
         -4.2863473,
         55.8792174
@@ -479,7 +499,8 @@ var geoJSON = {
     "properties": {
       "name": "The Sixty Steps",
       "description": "Attraction",
-      "icon": "img/icons/theater.png"
+      "icon": "img/icons/theatre.png",
+      "link": "http://www.sixtysteps.org.uk/"
     }
   },
 
@@ -487,7 +508,7 @@ var geoJSON = {
     "type": "Feature",
     "geometry": {
       "type": "Attraction",
-      "icon": "img/icons/food.png",
+      "icon": "img/icons/theatre.png",
       "coordinates": [
         -4.2458002,
         55.856798
@@ -496,7 +517,8 @@ var geoJSON = {
     "properties": {
       "name": "Merchant City Clock Tower",
       "description": "Attraction",
-      "icon": "img/icons/theater.png"
+      "icon": "img/icons/theatre.png",
+      "link": "http://www.scotcities.com/merchant.htm"
     }
   },
 
@@ -504,7 +526,7 @@ var geoJSON = {
     "type": "Feature",
     "geometry": {
       "type": "Attraction",
-      "icon": "img/icons/food.png",
+      "icon": "img/icons/theatre.png",
       "coordinates": [
         -4.2471007,
         55.857987
@@ -513,7 +535,8 @@ var geoJSON = {
     "properties": {
       "name": "Glasgow Police Museum",
       "description": "Attraction",
-      "icon": "img/icons/theater.png"
+      "icon": "img/icons/theatre.png",
+      "link": "http://www.policemuseum.org.uk/"
     }
   },
 
@@ -521,7 +544,7 @@ var geoJSON = {
     "type": "Feature",
     "geometry": {
       "type": "Attraction",
-      "icon": "img/icons/food.png",
+      "icon": "img/icons/theatre.png",
       "coordinates": [
         -4.2489899,
         55.8570578
@@ -530,7 +553,8 @@ var geoJSON = {
     "properties": {
       "name": "Trongate 103",
       "description": "Attraction",
-      "icon": "img/icons/theater.png"
+      "icon": "img/icons/theatre.png",
+      "link": "https://peoplemakeglasgow.com/things-to-do/museums-galleries/trongate-103"
     }
   }
 
