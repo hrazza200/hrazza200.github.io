@@ -15,8 +15,10 @@
 
   <!-- Custom fonts for this template -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
     rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
@@ -25,11 +27,13 @@
 </head>
 <style>
   /* Set the size of the div element that contains the map */
-   #map {
-     height: 400px;  /* The height is 400 pixels */
-     width: 100%;  /* The width is the width of the web page */
-    }
- </style>
+  #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+</style>
 
 <script>
   // Initialize and add the map
@@ -46,21 +50,48 @@
     var marker = new google.maps.Marker({
       position: botanic, map: map, title: 'Glasgow Botanic Gardens',
       icon: {
-        url: "img/icons/theater.png"
+        url: "img/icons/theatre.png"
       }
     });
+
+    google.maps.event.addListener(marker, 'click', function () {
+          //Show modal with attraction details
+          $('#ModalLabel').text("Glasgow Botanic Gardens");
+          $('#ModalBody').text("Glasgow Botanic Gardens is a botanical garden located in the West End of Glasgow, Scotland. It features several glasshouses, the most notable of which is the Kibble Palace");
+          $('#btn').attr("onclick", "window.open(`http://www.glasgowbotanicgardens.com/`,`_blank`)")
+          $('#Modal').modal('toggle');
+        });
+
+
     var marker = new google.maps.Marker({
-      position: modern, map: map, title: 'Gallery of Modern Art',
+      position: modern, map: map, title: 'Glasgow Botanic Gardens',
       icon: {
-        url: "img/icons/theater.png"
+        url: "img/icons/theatre.png"
       }
     });
+
+    google.maps.event.addListener(marker, 'click', function () {
+          //Show modal with attraction details
+          $('#ModalLabel').text("Kelvingrove Art Gallery and Museum");
+          $('#ModalBody').text("The Gallery of Modern Art is the main gallery of contemporary art in Glasgow, Scotland. GoMA offers a programme of temporary exhibitions and workshops.");
+          $('#btn').attr("onclick", "window.open(`https://www.glasgowlife.org.uk/museums/venues/gallery-of-modern-art-goma`,`_blank`)")
+          $('#Modal').modal('toggle');
+        });
+
+    
     var marker = new google.maps.Marker({
       position: kelvingrove, map: map, title: 'Kelvingrove Art Gallery and Museum',
       icon: {
-        url: "img/icons/theater.png"
+        url: "img/icons/theatre.png"
       }
     });
+
+    google.maps.event.addListener(marker, 'click', function () {
+          //Show modal with attraction details
+          $('#ModalLabel').text("Kelvingrove Art Gallery and Museum");
+          $('#ModalBody').text("The Kelvingrove Art Gallery and Museum is a museum and art gallery in Glasgow, Scotland. It reopened in 2006 after a three-year refurbishment and since then has been one of Scotland's most popular visitor attractions.");
+          $('#Modal').modal('toggle');
+        });
   }
 </script>
 <!--Load the API from the specified URL
@@ -68,8 +99,9 @@
     * The key parameter will contain your own API key (which is not needed for this tutorial)
     * The callback parameter executes the initMap() function
     -->
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfjhneAIHv_yQtIf0GmaY-5yUeV6RjyJw&callback=initMap">
-</script>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfjhneAIHv_yQtIf0GmaY-5yUeV6RjyJw&callback=initMap">
+  </script>
 
 <body>
 
@@ -77,8 +109,9 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand" href="index.html">Halal Attractions</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
         Menu
         <i class="fa fa-bars"></i>
       </button>
@@ -127,7 +160,7 @@
     <div class="row">
       <div class="col-lg-12 col-md-12 mx-auto">
         <!-- Cards -->
-        <div style="border-width: thin; border-style: solid; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
+        <div>
           <div class="card-deck">
             <div class="card">
               <img class="card-img-top" src="img/attraction1.jpg" alt="Card image cap">
@@ -140,7 +173,8 @@
                   elsewhere in this site) houses the National collection of tree ferns.</p>
               </div>
               <div class="card-footer">
-                <a href="http://www.glasgowbotanicgardens.com/" target="_blank" type="button" class="btn btn-success">Visit
+                <a href="http://www.glasgowbotanicgardens.com/" target="_blank" type="button"
+                  class="btn btn-success">Visit
                   Website</a>
               </div>
             </div>
@@ -154,8 +188,8 @@
                   display, borrow and collect artworks from around the world.</p>
               </div>
               <div class="card-footer">
-                <a href="https://www.glasgowlife.org.uk/museums/venues/gallery-of-modern-art-goma" type="button" target="_blank"
-                  class="btn btn-success">Visit Website</a>
+                <a href="https://www.glasgowlife.org.uk/museums/venues/gallery-of-modern-art-goma" type="button"
+                  target="_blank" class="btn btn-success">Visit Website</a>
               </div>
             </div>
             <div class="card">
@@ -169,8 +203,8 @@
                   displays.</p>
               </div>
               <div class="card-footer">
-                <a href="https://www.glasgowlife.org.uk/museums/venues/kelvingrove-art-gallery-and-museum" target="_blank"
-                  type="button" class="btn btn-success">Visit Website</a>
+                <a href="https://www.glasgowlife.org.uk/museums/venues/kelvingrove-art-gallery-and-museum"
+                  target="_blank" type="button" class="btn btn-success">Visit Website</a>
               </div>
             </div>
           </div>
@@ -225,6 +259,26 @@
       </div>
     </div>
   </footer>
+
+    <!-- Modal -->
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalLabel">Test</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p id="ModalBody"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="btn" target="_blank" onclick="">Go to Website</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
